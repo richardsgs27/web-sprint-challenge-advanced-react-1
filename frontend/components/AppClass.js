@@ -75,7 +75,7 @@ export default class AppClass extends React.Component {
     } else {
       this.setState({
         ...this.state,
-        message: "🚫 NO MORE MOVES ALLOWED 🚫",
+        message: "You can't go left",
       });
     }
   };
@@ -90,7 +90,7 @@ export default class AppClass extends React.Component {
     } else {
       this.setState({
         ...this.state,
-        message: "🚫 NO MORE MOVES ALLOWED 🚫",
+        message: "You can't go right",
       });
     }
   };
@@ -106,7 +106,7 @@ export default class AppClass extends React.Component {
     } else {
       this.setState({
         ...this.state,
-        message: "🚫 NO MORE MOVES ALLOWED 🚫",
+        message: "You can't go up",
       });
     }
   };
@@ -121,7 +121,7 @@ export default class AppClass extends React.Component {
     } else {
       this.setState({
         ...this.state,
-        message: "🚫 NO MORE MOVES ALLOWED 🚫",
+        message: "You can't go down",
       });
     }
   };
