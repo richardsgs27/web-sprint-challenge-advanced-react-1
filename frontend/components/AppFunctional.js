@@ -44,7 +44,7 @@ export default function AppFunctional(props) {
       setCount(count + 1);
       setMessage("");
     } else {
-      setMessage("🚫 NO MORE MOVES ALLOWED 🚫");
+      setMessage("You can't go up");
     }
   };
 
@@ -54,7 +54,7 @@ export default function AppFunctional(props) {
       setCount(count + 1);
       setMessage("");
     } else {
-      setMessage("🚫 NO MORE MOVES ALLOWED 🚫");
+      setMessage("You can't go up");
     }
   };
 
@@ -64,7 +64,7 @@ export default function AppFunctional(props) {
       setCount(count + 1);
       setMessage("");
     } else {
-      setMessage("🚫 NO MORE MOVES ALLOWED 🚫");
+      setMessage("You can't go up");
     }
   };
 
@@ -74,7 +74,7 @@ export default function AppFunctional(props) {
       setCount(count + 1);
       setMessage("");
     } else {
-      setMessage("🚫 NO MORE MOVES ALLOWED 🚫");
+      setMessage("You can't go up");
     }
   };
 
