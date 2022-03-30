@@ -44,7 +44,7 @@ export default function AppFunctional(props) {
       setCount(count + 1);
       setMessage("");
     } else {
-      setMessage("You can't go up");
+      setMessage("You can't go right");
     }
   };
 
@@ -54,7 +54,7 @@ export default function AppFunctional(props) {
       setCount(count + 1);
       setMessage("");
     } else {
-      setMessage("You can't go up");
+      setMessage("You can't go left");
     }
   };
 
@@ -74,7 +74,7 @@ export default function AppFunctional(props) {
       setCount(count + 1);
       setMessage("");
     } else {
-      setMessage("You can't go up");
+      setMessage("You can't go down");
     }
   };
 
